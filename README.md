@@ -19,7 +19,7 @@ Use the first command to create new independent environment for the project. Or 
 conda env create -f environment.yml
 
 # To remove a conda environment.
-conda remove --name pandas --all
+conda remove --name ml --all
 
 # To update a conda environment when some new libraries are added.
 conda env update -f environment.yml --prune
